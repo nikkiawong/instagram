@@ -180,3 +180,12 @@ a:hover {
   font-size: 5px;
   vertical-align: middle;
 }
+
+.card-icon {
+  margin-right: 10px;
+}
+
+#bookmark {
+  margin-right: 0;
+  float:right;
+}
