@@ -1,0 +1,172 @@
+$divider-color: #e5e5e5;
+$gray-text-color: #b2b2b2;
+$bottom-divider: 1px solid #e5e5e5;
+
+body {
+  background-color: #f9f9f9;
+}
+
+nav {
+  margin-bottom: 50px;
+  border: 1px solid #d8d8d8;
+  .header {
+    display: inline;
+    height: 25px;
+  }
+  .top-logo {
+    height: 30px;
+    padding-right: 15px;
+  }
+  .vl {
+    border-left: 1px solid gray;
+    height: 60px;
+  }
+  .searchBar {
+    width: 150px;
+  }
+}
+
+.row {
+  width: 1450px;
+  margin: {
+    left: 29%;
+    top: 12px;
+    bottom: 12px;
+  }
+}
+
+.card {
+  padding: 0;
+  .card-icons-bar {
+    margin-bottom: 10px;
+  }
+  .card-body {
+    padding: 0;
+  }
+  .card-content {
+    padding: 15px;
+  }
+  .card-text {
+    margin-bottom: 3px;
+    font-size: 14px;
+  }
+  .card-header {
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+  .divider {
+    border-bottom: $bottom-divider;
+  }
+  .card-icon {
+    margin-right: 10px;
+    width: 20px;
+  }
+  #userPic {
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid pink;
+  }
+  #bookmark {
+    margin-right: 0;
+    float: right;
+  }
+  #timestamp {
+    color: $gray-text-color;
+    font-weight: normal;
+    font-size: 10px;
+  }
+  #showComments {
+    color: $gray-text-color;
+    font-weight: normal;
+  }
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  :hover {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.nav-icons {
+  padding-right: 20px;
+  height: 22px;
+}
+
+.comment-section {
+  form, img {
+    display: inline-block;
+  }
+  #commentInput {
+    border: none;
+    width: 540px;
+  }
+}
+
+.sidebar {
+  font-size: 14px;
+  color: $gray-text-color;
+  p {
+    margin-left: 10px;
+  }
+  ul {
+    width: 90%;
+    margin: {
+      top: 10px;
+      left: -30px;
+    }
+    li {
+      display: inline;
+      list-style-type: circle;
+    }
+  }
+  img {
+    border-radius: 60px;
+  }
+  .follower-icon {
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+  #story-icon {
+    width: 60px;
+    margin-right: 10px;
+    display: inline-block;
+    float: left;
+  }
+  .story-info {
+    margin-top: 2px;
+    display: inline-block;
+    float: left;
+  }
+  .sidebar-divider {
+    margin: {
+      top: 75px;
+      bottom: 20px;
+    }
+    border-bottom: $bottom-divider;
+    width: 90%;
+  }
+  .follow-stories {
+    overflow: auto;
+    width: 90%;
+    height: 300px;
+    border-bottom: $bottom-divider;
+  }
+  .stories-label {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .story-name {
+    margin-bottom: 20px;
+  }
+  .bullet {
+    font-size: 5px;
+    vertical-align: middle;
+  }
+}
